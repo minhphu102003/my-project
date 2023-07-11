@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container{
+    width: 90%;
+    height: 100vh;
+    background-color: white;
+    margin: 0 auto;
+    border-left: 1px solid rgb(92, 92, 92);
+}
+
+.title{
+    width: 100%;
+    height: 5%;
+}
+.title h1{
+    font-size: 25px;
+    color: red;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+.sub-title{
+    height: 5%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sub-title h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.form{
+    height: 95%;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.name .text{
+    border: none;
+    box-shadow: 1px 1px 0 0 rgb(106, 105, 105);
+    border-bottom: 1px solid rgb(106, 105, 105);
+    padding-left: 5px;
+    background-color: rgb(243, 246, 247);
+    height: 80%;
+}
+
+.tiny{
+    width: 10%;
+}
+
+.small{
+    width: 20%;
+}
+
+input{
+    margin-right: 5px;
+}
+
+.first-label{
+    margin-right: 5px;
+    width: 15%;
+    display: inline-block;
+}
+
+.name label{
+    margin-right: 10px;
+    
+}
+
+.contain{
+    height: 5%;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.date{
+    width: 100%;
+    height: 5%;
+}
+.date input{
+    border: none;
+    box-shadow: 1px 1px 0 0 rgb(106, 105, 105);
+    border-bottom: 1px solid rgb(106, 105, 105);
+    margin-right: 30px;
+    display: inline-block;  
+    width: 26%;
+    background-color: rgb(243, 246, 247);
+    height: 80%;
+}
+
+.facebook input{
+    border: none;
+    box-shadow: 1px 1px 0 0 rgb(106, 105, 105);
+    border-bottom: 1px solid rgb(106, 105, 105);
+    margin-right: 30px;
+    display: inline-block;  
+    width: 70%;
+    background-color: rgb(243, 246, 247);
+    height: 80%;
+}
+
+.contact{
+    height: 10%;
+}
+.contact input{
+    border: none;
+    box-shadow: 1px 1px 0 0 rgb(106, 105, 105);
+    border-bottom: 1px solid rgb(106, 105, 105);
+    margin-right: 30px;
+    display: inline-block;  
+    width: 70%;
+    background-color: rgb(243, 246, 247);
+    height: 40%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.paragrahp{
+    padding: 0 calc(1820px * 0.12 );
+}
+
+.city{
+    height: 10%;
+}
+
+.city select{
+    border: none;
+    box-shadow: 1px 1px 0 0 rgb(106, 105, 105);
+    border-bottom: 1px solid rgb(106, 105, 105);
+    margin-right: 30px;
+    display: inline-block;  
+    width: 26%;
+    background-color: rgb(243, 246, 247);
+    height: 40%;
+    margin-bottom: 10px;
+}
+
+.brand select{
+    border: none;
+    box-shadow: 1px 1px 0 0 rgb(106, 105, 105);
+    border-bottom: 1px solid rgb(106, 105, 105);
+    margin-right: 30px;
+    display: inline-block;  
+    width: 70%;
+    background-color: rgb(243, 246, 247);
+    height: 90%;
+    margin-bottom: 10px;
+}
+
+.file{
+    height: 11%;
+}
+
+.file .add-file{
+    display: inline-block;
+    color: red;
+    margin-bottom: 20px 0;
+}
+
+.code-security{
+    height: 14%;
+}
+.code-security img{
+    height: 40%;
+    width: 20%;
+    object-fit: cover;
+}
+
+.code-security input{
+    height: 30%;
+    width: 20%;
+    border: none;
+    box-shadow: 1px 1px 0 0 rgb(106, 105, 105);
+    border-bottom: 1px solid rgb(106, 105, 105);
+    display: inline-block;  
+    background-color: rgb(243, 246, 247);
+    margin-bottom: 10px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(159, 10, 10);
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+

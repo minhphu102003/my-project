@@ -1,0 +1,5 @@
+- phần trăm trong linear gradient số phần trăm bên phải lớn hơn hoặc bằng số bên trái thì
+linear gradient không thể trộn vào nhau được 
+
+ở mức phức tạp 
+có thể dùng để thay thế cho border ở những trường hợp đặt biệt

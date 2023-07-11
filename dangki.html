@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí xét tuyển</title>
+    <link rel="stylesheet" href="dangki.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Đăng kí xét tuyển</h1>
+        </div>
+        <div class="sub-title">
+            <h2>Thông tin hồ sơ</h2>
+        </div>
+        <form class="form" action="">
+            <div class="name contain">
+                <label for="" class="first-label">Họ và tên</label>
+                <input type="text" class="tiny text" placeholder="Họ">
+                <input type="text" class="small text" placeholder="Tên lót">
+                <input type="text" class="tiny text" placeholder="Tên">
+                <label for="">Nam</label>
+                <input type="radio" name="gender" id="">
+                <label for="">Nữ</label>
+                <input type="radio" name="gender" id="">
+            </div>
+            <div class="date contain">
+                <label for="" class="first-label">Ngày sinh</label>
+                <input type="text" name="" id="">
+                <label for="" class="first-label">Số điện thoại</label>
+                <input type="text" maxlength="10">
+            </div>
+            <div class="facebook contain">
+                <label for="" class="first-label">Facebook</label>
+                <input type="text">
+            </div>
+            <div class="contact contain">
+                <label for="" class="first-label">Địa chỉ liên lạc</label>
+                <input type="text" placeholder="Địa chỉ nhận giấy báo trúng tuyển">
+                <p class="paragrahp">(Nhập số nhà, tên đường , tổ/thôn, phường/xã , quận/huyện, tỉnh thành)</p>
+            </div>
+            <div class="city contain">
+                <label for="" class="first-label">Tỉnh thành</label>
+                <select name="" id="city">
+                    <option value="0">Chọn tỉnh thành phố</option>
+                    <option value="1">Hà Nội</option>
+                    <option value="2">Hồ Chí Minh</option>
+                    <option value="3">Đà Nẵng</option>
+                    <option value="4">Hải Phòng</option>
+                    <option value="5">Huế</option>
+                </select>
+                <label for="" class="first-label">Chọn trường THPT</label>
+                <select name="" id="">
+                    <option value="0">Chọn trường THPT</option>
+                    <option value="1">THPT Trần Thị Tâm</option>
+                    <option value="2">THPT Nguyễn Bỉnh Khiêm</option>
+                </select>
+                <p class="paragrahp">(Ghi chú: Nếu thí sinh tự do thì bạn chọn trường THPT đã tốt nghiệp trước đó.)</p>
+            </div>
+            <div class="brand contain">
+                <label for="" class="first-label">Ngành đăng ký</label>
+                <select name="" id="">
+                    <option value="0">Chọn ngành</option>
+                    <option value="1">Công nghệ thông tin</option>
+                    <option value="2">Công nghệ sinh học</option>
+                    <option value="3">quản trị kinh doanh</option>
+                    <option value="4">thương mại điện tử</option>
+                </select>
+            </div>
+            <div class="file contain">
+                <label for="" class="first-label">Tập tin đính kèm</label>
+                <input type="file" id="file"><br>
+                <label for="file" class="paragrahp add-file">Thêm file</label><br>
+                <p class="paragrahp">(File có phần mở rộng là : GIF, JPG, PNG, RAR, ZIP!)</p>
+            </div>
+            <div class="code-security contain">
+                <label for="" class="first-label">Mã bảo vệ</label>
+                <input type="text" maxlength="6">
+                <img src="/download (1).jpg" alt="">
+                <p class="paragrahp last">Nhập đúng các kí tự ở hình bên phải vào ô trống bên trái</p>
+                <p class="paragrahp last">(*) là những trường bắt buộc nhập.</p>
+            </div>
+            <div class="submit">
+                <input class="submit-button" type="submit" value="Đăng kí xét tuyển">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        table{
+            width: 800px;
+            border: 1px solid #008000;
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+        table tr td{
+            border: 1px solid #008000;
+        }
+        .first-column{
+            text-transform: uppercase;
+            font-size: 18px;
+            color: black;
+            height: 20px;
+            padding: 5px 0;
+        }
+        .img{
+            width: 20%;
+        }
+        .img img{
+            width: 100%;
+            object-fit: cover;
+        }
+        .infor{
+            width: 30%;
+            padding-left: 20px;
+        }
+        .infor a{
+            color: black;
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+           <td class="first-column" colspan="4"><marquee behavior="" direction="">sản phẩm laptop tại công ty minh phương</marquee></td>
+        </tr>
+        <tr>
+            <td class="img"><img src="download.jpg"" alt="hay"></td>
+            <td class="infor"><a href="chitiet.html">Lenovo S10-3T.Netbook</a></td>
+            <td class="img"><img src="download.jpg" alt="hay"></td>
+            <td class="infor"><a href="#">Sony Vaio</a></td>
+        </tr>
+        <tr>
+            <td class="img"><img src="download.jpg" alt="hay"></td>
+            <td class="infor"><a href="#">Acer Aspire As5745</a></td>
+            <td class="img"><img src="download.jpg" alt="hay"></td>
+            <td class="infor"><a href="#">Sony Vaio VPC</a></td>
+        </tr>
+    </table>
+</body>
+</html>
